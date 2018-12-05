@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		649DD62921B541FF00D9CD73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DD62821B541FF00D9CD73 /* AppDelegate.swift */; };
+		649DD62B21B541FF00D9CD73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DD62A21B541FF00D9CD73 /* ViewController.swift */; };
+		649DD62E21B541FF00D9CD73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649DD62C21B541FF00D9CD73 /* Main.storyboard */; };
+		649DD63021B5420100D9CD73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649DD62F21B5420100D9CD73 /* Assets.xcassets */; };
+		649DD63321B5420100D9CD73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649DD63121B5420100D9CD73 /* LaunchScreen.storyboard */; };
+		649DD63E21B5420100D9CD73 /* ios_imageview_swipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DD63D21B5420100D9CD73 /* ios_imageview_swipeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		649DD63A21B5420100D9CD73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649DD61D21B541FF00D9CD73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 649DD62421B541FF00D9CD73;
+			remoteInfo = "ios-imageview-swipe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		649DD62521B541FF00D9CD73 /* ios-imageview-swipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-imageview-swipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		649DD62821B541FF00D9CD73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		649DD62A21B541FF00D9CD73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		649DD62D21B541FF00D9CD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		649DD62F21B5420100D9CD73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		649DD63221B5420100D9CD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		649DD63421B5420100D9CD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649DD63921B5420100D9CD73 /* ios-imageview-swipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-imageview-swipeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		649DD63D21B5420100D9CD73 /* ios_imageview_swipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_imageview_swipeTests.swift; sourceTree = "<group>"; };
+		649DD63F21B5420100D9CD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		649DD62221B541FF00D9CD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649DD63621B5420100D9CD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		649DD61C21B541FF00D9CD73 = {
+			isa = PBXGroup;
+			children = (
+				649DD62721B541FF00D9CD73 /* ios-imageview-swipe */,
+				649DD63C21B5420100D9CD73 /* ios-imageview-swipeTests */,
+				649DD62621B541FF00D9CD73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		649DD62621B541FF00D9CD73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				649DD62521B541FF00D9CD73 /* ios-imageview-swipe.app */,
+				649DD63921B5420100D9CD73 /* ios-imageview-swipeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		649DD62721B541FF00D9CD73 /* ios-imageview-swipe */ = {
+			isa = PBXGroup;
+			children = (
+				649DD62821B541FF00D9CD73 /* AppDelegate.swift */,
+				649DD62A21B541FF00D9CD73 /* ViewController.swift */,
+				649DD62C21B541FF00D9CD73 /* Main.storyboard */,
+				649DD62F21B5420100D9CD73 /* Assets.xcassets */,
+				649DD63121B5420100D9CD73 /* LaunchScreen.storyboard */,
+				649DD63421B5420100D9CD73 /* Info.plist */,
+			);
+			path = "ios-imageview-swipe";
+			sourceTree = "<group>";
+		};
+		649DD63C21B5420100D9CD73 /* ios-imageview-swipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				649DD63D21B5420100D9CD73 /* ios_imageview_swipeTests.swift */,
+				649DD63F21B5420100D9CD73 /* Info.plist */,
+			);
+			path = "ios-imageview-swipeTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		649DD62421B541FF00D9CD73 /* ios-imageview-swipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649DD64221B5420100D9CD73 /* Build configuration list for PBXNativeTarget "ios-imageview-swipe" */;
+			buildPhases = (
+				649DD62121B541FF00D9CD73 /* Sources */,
+				649DD62221B541FF00D9CD73 /* Frameworks */,
+				649DD62321B541FF00D9CD73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-imageview-swipe";
+			productName = "ios-imageview-swipe";
+			productReference = 649DD62521B541FF00D9CD73 /* ios-imageview-swipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		649DD63821B5420100D9CD73 /* ios-imageview-swipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649DD64521B5420100D9CD73 /* Build configuration list for PBXNativeTarget "ios-imageview-swipeTests" */;
+			buildPhases = (
+				649DD63521B5420100D9CD73 /* Sources */,
+				649DD63621B5420100D9CD73 /* Frameworks */,
+				649DD63721B5420100D9CD73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				649DD63B21B5420100D9CD73 /* PBXTargetDependency */,
+			);
+			name = "ios-imageview-swipeTests";
+			productName = "ios-imageview-swipeTests";
+			productReference = 649DD63921B5420100D9CD73 /* ios-imageview-swipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		649DD61D21B541FF00D9CD73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Yuki Okudera";
+				TargetAttributes = {
+					649DD62421B541FF00D9CD73 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					649DD63821B5420100D9CD73 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 649DD62421B541FF00D9CD73;
+					};
+				};
+			};
+			buildConfigurationList = 649DD62021B541FF00D9CD73 /* Build configuration list for PBXProject "ios-imageview-swipe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 649DD61C21B541FF00D9CD73;
+			productRefGroup = 649DD62621B541FF00D9CD73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				649DD62421B541FF00D9CD73 /* ios-imageview-swipe */,
+				649DD63821B5420100D9CD73 /* ios-imageview-swipeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		649DD62321B541FF00D9CD73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649DD63321B5420100D9CD73 /* LaunchScreen.storyboard in Resources */,
+				649DD63021B5420100D9CD73 /* Assets.xcassets in Resources */,
+				649DD62E21B541FF00D9CD73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649DD63721B5420100D9CD73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		649DD62121B541FF00D9CD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649DD62B21B541FF00D9CD73 /* ViewController.swift in Sources */,
+				649DD62921B541FF00D9CD73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649DD63521B5420100D9CD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649DD63E21B5420100D9CD73 /* ios_imageview_swipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		649DD63B21B5420100D9CD73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 649DD62421B541FF00D9CD73 /* ios-imageview-swipe */;
+			targetProxy = 649DD63A21B5420100D9CD73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		649DD62C21B541FF00D9CD73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				649DD62D21B541FF00D9CD73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		649DD63121B5420100D9CD73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				649DD63221B5420100D9CD73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		649DD64021B5420100D9CD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		649DD64121B5420100D9CD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		649DD64321B5420100D9CD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "ios-imageview-swipe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-imageview-swipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		649DD64421B5420100D9CD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "ios-imageview-swipe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-imageview-swipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		649DD64621B5420100D9CD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "ios-imageview-swipeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-imageview-swipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-imageview-swipe.app/ios-imageview-swipe";
+			};
+			name = Debug;
+		};
+		649DD64721B5420100D9CD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8PR34D6DP;
+				INFOPLIST_FILE = "ios-imageview-swipeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-imageview-swipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-imageview-swipe.app/ios-imageview-swipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		649DD62021B541FF00D9CD73 /* Build configuration list for PBXProject "ios-imageview-swipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649DD64021B5420100D9CD73 /* Debug */,
+				649DD64121B5420100D9CD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649DD64221B5420100D9CD73 /* Build configuration list for PBXNativeTarget "ios-imageview-swipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649DD64321B5420100D9CD73 /* Debug */,
+				649DD64421B5420100D9CD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649DD64521B5420100D9CD73 /* Build configuration list for PBXNativeTarget "ios-imageview-swipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649DD64621B5420100D9CD73 /* Debug */,
+				649DD64721B5420100D9CD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 649DD61D21B541FF00D9CD73 /* Project object */;
+}
