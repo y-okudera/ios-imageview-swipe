@@ -1,0 +1,2 @@
+# ios-imageview-swipe
+ImageViewを左右にスワイプしてアニメーションしながら画像を切り替えるサンプル
